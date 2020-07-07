@@ -100,7 +100,8 @@ function determineSpecialChars(){
     }
     return specialCheck;
 }
- 
+
+// Determine password based on parameters checked by the user. Console logs display the password based on the selected parameters
 function generatePassword(){
   determineLengthNum();
   console.log(passwordLength);
